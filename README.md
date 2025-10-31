@@ -41,14 +41,14 @@ Dirígete a la pestaña Environment.
 
 Agrega las siguientes variables con sus respectivos valores:
 
-# Configuración de la base de datos
+# configuracion de la base de datos
 DB_HOST=tu-host-postgres.render.com
 DB_PORT=5432
 DB_NAME=odoo
 DB_USER=odoo_user
 DB_PASSWORD=tu_password_postgres
 
-# Configuración de Odoo
+# configuracion de odoo
 ADMIN_PASSWORD=Admin123!  # cámbiala por una contraseña segura
 PGDATABASE=odoo
 PGUSER=odoo_user
@@ -57,7 +57,7 @@ PGHOST=tu-host-postgres.render.com
 PGPORT=5432
 
 
-Sugerencia: aprovecha la función de variables secretas en Render para ocultar tus credenciales sensibles.
+
 
 Paso 4: Obtener los Datos de Conexión de PostgreSQL
 
