@@ -33,7 +33,7 @@ Plan	Free
 Render identificará automáticamente el archivo Dockerfile y comenzará a construir la imagen.
 Este proceso inicial puede tardar varios minutos.
 
-⚙️ Paso 3: Definir las Variables de Entorno
+Paso 3: Definir las Variables de Entorno
 
 En tu servicio web odoo-app, sigue estos pasos:
 
@@ -57,9 +57,9 @@ PGHOST=tu-host-postgres.render.com
 PGPORT=5432
 
 
-💡 Sugerencia: aprovecha la función de variables secretas en Render para ocultar tus credenciales sensibles.
+Sugerencia: aprovecha la función de variables secretas en Render para ocultar tus credenciales sensibles.
 
-🔑 Paso 4: Obtener los Datos de Conexión de PostgreSQL
+Paso 4: Obtener los Datos de Conexión de PostgreSQL
 
 Abre el servicio PostgreSQL (odoo-db) que creaste.
 
@@ -80,7 +80,7 @@ DB_NAME=odoo
 DB_USER=odoo_user
 DB_PASSWORD=password
 
-🔍 Paso 5: Verificar el Despliegue
+Paso 5: Verificar el Despliegue
 
 Ingresa al servicio odoo-app dentro de Render.
 
@@ -96,7 +96,7 @@ Verás la pantalla de bienvenida de Odoo.
 
 Desde ahí podrás crear tu base de datos inicial e iniciar sesión en tu instancia.
 
-✅ Comprobación Final
+Comprobación Final
 
 Para confirmar que todo funciona correctamente:
 
